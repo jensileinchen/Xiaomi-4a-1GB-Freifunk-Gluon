@@ -2,7 +2,7 @@
 ## Xiaomi Mi Router 4A Gigabit Edition
 
 **Benötigt werden:** 
-PC mit aktuellen Windows-Betriebssystem, 
+PC mit aktuellen Windows-Betriebssystem (bitte alle Windows-Updates laden & installieren),
 Internetverbindung, Xiaomi Router und 2 Netzwerkkabel (einmal Internet-Verbindung für den Xiaomi-Router und LAN Verbindung zum Laptop, mit dem der Router geflasht werden soll. 
 
 *Diese Anleitung ist für Microsoft Windows-Betriebssysteme geschrieben worden!*
@@ -11,7 +11,7 @@ Internetverbindung, Xiaomi Router und 2 Netzwerkkabel (einmal Internet-Verbindun
 wir starten mit einigen Downloads, die wir später benötigen:
 
  - Aktuelles Freifunk-Image der jeweiligen lokalen Community herunterladen (*.bin Datei)
- - OpenWRT Image für den Xiaomi-Router herunterladen von der Webseite, am besten nach dem Download umbenennen zu openwrt.bin  Link: https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition
+ - OpenWRT Image für den Xiaomi-Router herunterladen von der Webseite Link: https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition   am besten nach dem Download umbenennen zu *openwrt.bin* das Umbenennen vereinfacht später den Prozess !
  - Programm „VirtualBox“ herunterladen und installieren https://www.virtualbox.org/ alternativ auch „VMWare Workstation“ herunterladen.
  - Linux Ubuntu herunterladen als ISO Image: https://ubuntu.com/desktop
  - FTP-Client Programm z.B. „Cyberduck“ https://cyberduck.io/download/  
