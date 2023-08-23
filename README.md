@@ -1,8 +1,14 @@
-Xiaomi Mi Router 4A Gigabit Edition
-Benötigt werden: PC mit aktuellen Windows-Betriebssystem, Internetverbindung, Xiaomi Router und 2 Netzwerkkabel (einmal Internet-Verbindung für den Xiaomi-Router und LAN Verbindung zum Laptop, mit dem der Router geflasht werden soll. 
-Diese Anleitung ist für Microsoft Windows-Betriebssysteme!
 
-Vorbereitung – wir starten mit einigen Downloads, die wir später benötigen:
+## Xiaomi Mi Router 4A Gigabit Edition
+
+**Benötigt werden:** 
+PC mit aktuellen Windows-Betriebssystem, 
+Internetverbindung, Xiaomi Router und 2 Netzwerkkabel (einmal Internet-Verbindung für den Xiaomi-Router und LAN Verbindung zum Laptop, mit dem der Router geflasht werden soll. 
+
+*Diese Anleitung ist für Microsoft Windows-Betriebssysteme!*
+
+**Vorbereitung**
+wir starten mit einigen Downloads, die wir später benötigen:
 •	Aktuelles Freifunk-Image der jeweiligen Community herunterladen (*.bin Datei) 
 •	OpenWRT Image für den Xiaomi-Router herunterladen von der Webseite, am besten nach dem Download umbenennen zu openwrt.bin 
 Link: https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition
@@ -11,15 +17,19 @@ Link: https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition
 •	FTP-Client Programm z.B. „Cyberduck“ https://cyberduck.io/download/  
 Alternativ auch „Filezilla“ https://filezilla-project.org/download.php?type=client
 
-Inbetriebnahme Xiaomi-Router
-•	Router mit Netzwerkkabel zum Heimnetzwerk (Fritzbox o.ä.) verbinden, hierzu die blaue RJ45-Buchse auf der Rückseite verwenden. Beschriftung: „Internet“
-•	PC mit LAN-Kabel an eine der beiden freien RJ45-Buchsen verbinden.
-•	Router mit Spannungsversorgung einschalten (mitgeliefertes Netzteil) 
-•	Die LAN-Konfiguration vom Windows-PC wird auf DHCP ( = automatisch ) eingestellt
-•	Per Browser wird die Startseite vom Router aufgerufen: 192.168.31.1
-•	Auf der Seite wird Germany als Aufstellungsland ausgewählt und die allg. Geschäftsbedingungen müssen akzeptiert werden (Checkbox)
-•	Ein sicheres Geräte- und WLAN Passwort wird vergeben, beispielsweise XiaomiMI
-•	Die Stok-Nummer in der URL vom Router wird in eine Text-Datei geschrieben oder einfach das Browser-Fenster offen gelassen (Diese Nummer benötigen wir ggf. später noch) Browser Fenster kann erstmal in die Taskleiste minimiert werden.
+**Inbetriebnahme Xiaomi-Router**
+
+ - Router mit Netzwerkkabel zum Heimnetzwerk (Fritzbox o.ä.) verbinden,
+   hierzu die blaue RJ45-Buchse auf der Rückseite verwenden.
+   Beschriftung: „Internet“
+ - PC mit LAN-Kabel an eine der beiden freien RJ45-Buchsen verbinden.
+ - Router mit Spannungsversorgung einschalten (mitgeliefertes Netzteil)
+ - Die LAN-Konfiguration der Verbindung zwischen Freifunk-Router und Windows-PC wird auf DHCP ( = automatisch ) eingestellt
+
+Per Browser wird die Startseite vom Router aufgerufen: 192.168.31.1
+Auf der Seite wird Germany als Aufstellungsland ausgewählt und die allg. Geschäftsbedingungen müssen akzeptiert werden (Checkbox)
+Ein sicheres Geräte- und WLAN Passwort wird vergeben, beispielsweise XiaomiMI
+Die Stok-Nummer in der URL vom Router wird in eine Text-Datei geschrieben oder einfach das Browser-Fenster offen gelassen (Diese Nummer benötigen wir ggf. später noch) Browser Fenster kann erstmal in die Taskleiste minimiert werden.
 
 (wenn die Stok nicht in der URL angezeigt wird einfach die Router Startseite per Eingabe der IP 192.168.31.1 nochmals mit einem anderen Browser zb Firefox öffnen)
 
@@ -97,3 +107,4 @@ Quellen:
 •	https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi
 
 Zusammengefasst und dokumentiert dasdigidings e.V. Jens Nowak im August 2023
+
