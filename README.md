@@ -23,6 +23,9 @@ wir starten mit einigen Downloads, die wir später benötigen:
    hierzu die blaue RJ45-Buchse auf der Rückseite verwenden.
    Beschriftung: „Internet“
  - PC mit LAN-Kabel an eine der beiden freien RJ45-Buchsen verbinden.
+
+![Anschlußhilfe: ](https://github.com/jensileinchen/Freifunk-4-Xiaomi-4a-1GB/blob/main/img/connection.jpg)
+
  - Router mit Spannungsversorgung einschalten (mitgeliefertes Netzteil)
  - Die LAN-Konfiguration der Verbindung zwischen Freifunk-Router und Windows-PC wird auf DHCP ( = automatisch ) eingestellt
 
